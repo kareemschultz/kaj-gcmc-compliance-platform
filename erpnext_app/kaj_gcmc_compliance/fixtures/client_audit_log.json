@@ -1,0 +1,106 @@
+[
+  {
+    "actions": [],
+    "allow_copy": 0,
+    "allow_guest_to_view": 0,
+    "allow_import": 1,
+    "allow_rename": 0,
+    "autoname": "field:entity",
+    "beta": 0,
+    "creation": "2024-01-01 00:00:00.000000",
+    "docstatus": 0,
+    "doctype": "DocType",
+    "document_type": "",
+    "editable_grid": 1,
+    "engine": "InnoDB",
+    "field_order": [
+      "customer",
+      "action",
+      "entity",
+      "previous_value",
+      "new_value",
+      "user",
+      "timestamp",
+      "remarks"
+    ],
+    "fields": [
+      {
+        "fieldname": "customer",
+        "fieldtype": "Link",
+        "in_standard_filter": 1,
+        "label": "Customer",
+        "options": "Customer"
+      },
+      {
+        "fieldname": "action",
+        "fieldtype": "Select",
+        "label": "Action",
+        "options": "Create\nUpdate\nDelete"
+      },
+      {
+        "fieldname": "entity",
+        "fieldtype": "Data",
+        "label": "Entity"
+      },
+      {
+        "fieldname": "previous_value",
+        "fieldtype": "Text",
+        "label": "Previous Value"
+      },
+      {
+        "fieldname": "new_value",
+        "fieldtype": "Text",
+        "label": "New Value"
+      },
+      {
+        "fieldname": "user",
+        "fieldtype": "Link",
+        "label": "User",
+        "options": "User"
+      },
+      {
+        "fieldname": "timestamp",
+        "fieldtype": "Datetime",
+        "label": "Timestamp"
+      },
+      {
+        "fieldname": "remarks",
+        "fieldtype": "Small Text",
+        "label": "Remarks"
+      }
+    ],
+    "index_web_pages_for_search": 0,
+    "is_submittable": 0,
+    "issingle": 1,
+    "istable": 0,
+    "links": [],
+    "modified": "2024-01-01 00:00:00.000000",
+    "modified_by": "Administrator",
+    "module": "Kaj Gcmc Compliance",
+    "name": "Client Audit Log",
+    "owner": "Administrator",
+    "permissions": [
+      {
+        "create": 1,
+        "delete": 1,
+        "email": 1,
+        "export": 1,
+        "permlevel": 0,
+        "print": 1,
+        "read": 1,
+        "report": 1,
+        "role": "System Manager",
+        "share": 1,
+        "write": 1
+      }
+    ],
+    "quick_entry": 0,
+    "show_preview_popup": 0,
+    "sort_field": "modified",
+    "sort_order": "DESC",
+    "states": [],
+    "track_changes": 1,
+    "track_seen": 1,
+    "track_views": 1
+  }
+]
