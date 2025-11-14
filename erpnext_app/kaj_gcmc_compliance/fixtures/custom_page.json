@@ -1,0 +1,12 @@
+[
+  {
+    "doctype": "Custom Page",
+    "name": "Client Compliance Overview",
+    "title": "Client Compliance Overview",
+    "page_name": "client-compliance-overview",
+    "module": "Kaj Gcmc Compliance",
+    "content": "<div id=\"client-compliance-overview\"></div>",
+    "script": "frappe.require(\"assets/kaj_gcmc_compliance/js/client_dashboard.js\");",
+    "style": ""
+  }
+]
