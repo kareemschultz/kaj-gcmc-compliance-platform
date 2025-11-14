@@ -348,3 +348,17 @@ def get_dashboard_data(customer_id: str, year: Optional[int] = None, document_ty
             "document_types": stats.get("document_types", []),
         },
     }
+
+
+def get_page_info(page: str | None = None) -> Dict[str, object]:
+    """Return metadata for the Client Compliance Overview desk page."""
+    return {
+        "name": "client-compliance-overview",
+        "title": _("Client Compliance Overview"),
+        "route": "client-compliance-overview",
+        "description": _(
+            "Interactive dashboard showing compliance filings, documents and renewals for a client."
+        ),
+        "reference_doctype": "Customer",
+        "roles": ["System Manager", "KAJ Staff", "GCMC Staff"],
+    }
