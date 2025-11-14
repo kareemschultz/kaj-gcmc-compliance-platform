@@ -1,0 +1,5 @@
+app_name = "kaj_gcmc_compliance"
+app_title = "KAJ GCMC Compliance"
+app_publisher = "KAJ & GCMC"
+app_email = "info@example.com"
+app_license = "MIT"
