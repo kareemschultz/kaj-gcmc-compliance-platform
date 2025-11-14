@@ -1,0 +1,106 @@
+[
+  {
+    "actions": [],
+    "allow_copy": 0,
+    "allow_guest_to_view": 0,
+    "allow_import": 1,
+    "allow_rename": 0,
+    "autoname": "autoincrement",
+    "beta": 0,
+    "creation": "2024-01-01 00:00:00.000000",
+    "docstatus": 0,
+    "doctype": "DocType",
+    "document_type": "",
+    "editable_grid": 1,
+    "engine": "InnoDB",
+    "field_order": [
+      "form_code",
+      "issuer_authority",
+      "filing_date",
+      "received_date",
+      "status",
+      "amount_paid",
+      "reference_number",
+      "expiry_date",
+      "attached_document",
+      "remarks"
+    ],
+    "fields": [
+      {
+        "fieldname": "form_code",
+        "fieldtype": "Select",
+        "in_list_view": 1,
+        "label": "Form Code",
+        "options": "G0015 - Individual TIN Registration\nG0016 - Organisation TIN Registration\nG0004 - Individual Income Tax Return\nG0003 - Corporation Tax Return\nG0017 - Financial Statements Summary (Balance Sheet)\nG0018 - Financial Statements Summary (Profit & Loss)\nForm 2 - Annual PAYE Reconciliation\nPAYE Return - Monthly\nG0002 - Value Added Tax (VAT) Return\nG0001 - VAT Imported Services\nG0009 - Company Property Tax Return\nG0010 - Individual Property Tax Return\nG0022 - Withholding Tax Return\nG0007 - Capital Gains Tax Return\nR400F1 - Employer Registration\nR400F4 - Employed Person Registration\nR400F4A - Self-Employed Registration\nF200F6 - Contribution Schedule (Weekly)\nF200F3 - Contribution Schedule (Electronic)\nF200F1 - Contribution Schedule (Self-Employed)\nC100F72 - NIS Compliance (Employer)\nC100F72A - NIS Compliance (Self-Employed)\nApplication - Business Name Registration\nArticles of Incorporation\nNotice of Directors\nNotice of Change of Directors"
+      },
+      {
+        "fieldname": "issuer_authority",
+        "fieldtype": "Select",
+        "in_list_view": 1,
+        "label": "Issuer Authority",
+        "options": "GRA\nNIS\nDCRA\nPolice\nImmigration\nOther"
+      },
+      {
+        "fieldname": "filing_date",
+        "fieldtype": "Date",
+        "label": "Filing Date"
+      },
+      {
+        "fieldname": "received_date",
+        "fieldtype": "Date",
+        "label": "Received Date"
+      },
+      {
+        "fieldname": "status",
+        "fieldtype": "Select",
+        "in_list_view": 1,
+        "label": "Status",
+        "options": "Draft\nFiled\nAccepted\nRejected"
+      },
+      {
+        "fieldname": "amount_paid",
+        "fieldtype": "Currency",
+        "label": "Amount Paid"
+      },
+      {
+        "fieldname": "reference_number",
+        "fieldtype": "Data",
+        "label": "Reference Number"
+      },
+      {
+        "fieldname": "expiry_date",
+        "fieldtype": "Date",
+        "label": "Expiry Date"
+      },
+      {
+        "fieldname": "attached_document",
+        "fieldtype": "Attach",
+        "label": "Attached Document"
+      },
+      {
+        "fieldname": "remarks",
+        "fieldtype": "Small Text",
+        "label": "Remarks"
+      }
+    ],
+    "index_web_pages_for_search": 0,
+    "is_submittable": 0,
+    "issingle": 0,
+    "istable": 1,
+    "links": [],
+    "modified": "2024-01-01 00:00:00.000000",
+    "modified_by": "Administrator",
+    "module": "Kaj Gcmc Compliance",
+    "name": "Filed Form Item",
+    "owner": "Administrator",
+    "permissions": [],
+    "quick_entry": 0,
+    "show_preview_popup": 1,
+    "sort_field": "modified",
+    "sort_order": "DESC",
+    "states": [],
+    "track_changes": 1,
+    "track_seen": 1,
+    "track_views": 1
+  }
+]
