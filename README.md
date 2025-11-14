@@ -1,21 +1,42 @@
-# 🇬🇾 ERPNext Guyana Compliance Suite  
-**Enterprise-grade ERPNext Addon for GRA, NIS, DCRA and national compliance workflows**
+# 🇬🇾 KAJ–GCMC Compliance Platform
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![ERPNext](https://img.shields.io/badge/ERPNext-v14+-blue)]()
-[![Build Status](https://github.com/YOURNAME/erpnext-guyana-compliance-suite/actions/workflows/build.yml/badge.svg)]()
+A unified **ERPNext** framework for Guyana regulatory compliance, designed for the two partner firms:
 
-A complete ERPNext extension for Guyana’s national compliance ecosystem, developed by  
-**Green Cresent Management Consultancy (GCMC)** and **KAJ Financial Services**.
+- **KAJ Financial Services**
+- **Green Cresent Management Consultancy (GCMC)**
 
-## Features
-- ✔ Full GRA filing library (TIN, PAYE, VAT, ITA, Property Tax)
-- ✔ Full NIS registration + contribution + compliance support
-- ✔ DCRA business registration workflows
-- ✔ Custom fields for tender, land, firearm, work permit compliance
-- ✔ Client audit trail
-- ✔ Compliance dashboards & pie/bar charts
-- ✔ Import templates for legacy data
+This platform standardizes how KAJ and GCMC manage:
 
-## Documentation
-All detailed documentation is in `/docs`.
+- GRA (Guyana Revenue Authority) tax returns, PAYE, VAT, Property, Withholding and Capital Gains
+- NIS registrations, contribution schedules, compliance and pension queries
+- DCRA (Deeds & Commercial Registries Authority) business registrations and changes
+- Tender, land, work permit, and firearm liability compliance
+- Legal / paralegal documents (affidavits, agreements, wills, settlements)
+- Immigration-related work permits, residence permits, visas
+
+---
+
+## 🔧 Tech Summary
+
+- **Core system:** ERPNext / Frappe
+- **App name:** `kaj_gcmc_compliance`
+- **Repo:** `kaj-gcmc-compliance-platform`
+- **Scope:** Custom DocTypes, Child Tables, Custom Fields, Dashboards, Notifications
+- **Goal:** A single client profile showing filings, documents, compliance status, and audit trail.
+
+---
+
+## 📂 Repository Layout
+
+```text
+docs/                     → All functional documentation
+  compliance/             → Schemas, automation, UI blueprints
+  references/             → Official links and business rules
+
+erpnext_app/
+  kaj_gcmc_compliance/    → ERPNext app skeleton (fixtures, hooks, etc.)
+
+.github/workflows/        → CI pipelines (lint, validate, release)
+```
+
+See [`docs/SYSTEM_OVERVIEW.md`](docs/SYSTEM_OVERVIEW.md) for a high‑level system map.
