@@ -1,0 +1,44 @@
+[
+  {
+    "doctype": "Role",
+    "role_name": "KAJ Staff",
+    "desk_access": 1,
+    "disabled": 0
+  },
+  {
+    "doctype": "Role",
+    "role_name": "GCMC Staff",
+    "desk_access": 1,
+    "disabled": 0
+  },
+  {
+    "doctype": "Role",
+    "role_name": "Compliance Officer",
+    "desk_access": 1,
+    "disabled": 0
+  },
+  {
+    "doctype": "Role",
+    "role_name": "Document Officer",
+    "desk_access": 1,
+    "disabled": 0
+  },
+  {
+    "doctype": "Role",
+    "role_name": "Filing Clerk",
+    "desk_access": 1,
+    "disabled": 0
+  },
+  {
+    "doctype": "Role",
+    "role_name": "Admin (full access)",
+    "desk_access": 1,
+    "disabled": 0
+  },
+  {
+    "doctype": "Role",
+    "role_name": "Read-Only Viewer",
+    "desk_access": 1,
+    "disabled": 0
+  }
+]

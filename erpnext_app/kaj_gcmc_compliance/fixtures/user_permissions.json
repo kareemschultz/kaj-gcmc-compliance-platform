@@ -1,0 +1,24 @@
+[
+  {
+    "doctype": "User Permission",
+    "name": "KAJ Staff-Customer-Business Unit",
+    "role": "KAJ Staff",
+    "allow": "Business Unit",
+    "for_value": "KAJ",
+    "applicable_for": "Customer",
+    "apply_to_all_doctypes": 0,
+    "is_default": 0,
+    "allow_or_restrict": "Allow"
+  },
+  {
+    "doctype": "User Permission",
+    "name": "GCMC Staff-Customer-Business Unit",
+    "role": "GCMC Staff",
+    "allow": "Business Unit",
+    "for_value": "GCMC",
+    "applicable_for": "Customer",
+    "apply_to_all_doctypes": 0,
+    "is_default": 0,
+    "allow_or_restrict": "Allow"
+  }
+]
