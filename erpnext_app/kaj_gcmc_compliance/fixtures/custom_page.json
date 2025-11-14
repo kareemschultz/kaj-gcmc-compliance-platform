@@ -1,0 +1,14 @@
+[
+  {
+    "docstatus": 0,
+    "doctype": "Custom Page",
+    "module": "KAJ GCMC Compliance",
+    "name": "client-compliance-overview",
+    "page_name": "client_compliance_overview",
+    "label": "Client Compliance Overview",
+    "title": "Client Compliance Overview",
+    "style": "",
+    "script": "",
+    "content": "<div class=\"client-compliance-overview\"></div>"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "docstatus": 0,
+  "doctype": "Page",
+  "module": "KAJ GCMC Compliance",
+  "name": "client-compliance-overview",
+  "page_name": "client_compliance_overview",
+  "standard": "Yes",
+  "title": "Client Compliance Overview",
+  "icon": "octicon octicon-organization",
+  "content": "",
+  "style": "",
+  "script": "",
+  "roles": []
+}
